@@ -24,7 +24,10 @@ private _bankAction = [
         params ["_target", "_player"];
         createDialog QCLASS(banking_ui);
     },
-    {true},
+    {
+        params ["_target"];
+        (_target getVariable ["AE3_power_powerState", 1]) != 0
+    },
     {},
     ["_target", "_player"],
     [0, 0, 0],

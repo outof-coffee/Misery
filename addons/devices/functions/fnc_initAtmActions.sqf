@@ -20,23 +20,14 @@ if (isDedicated) exitWith {};
 if (_atm getVariable [QGVAR(actionsAdded), false]) exitWith {};
 _atm setVariable [QGVAR(actionsAdded), true];
 
-private _hasEquipmentAction = _atm getVariable ["AE3_interaction_hasEquipmentAction", false];
 private _parentPath = ["ACE_MainActions"];
-if (_hasEquipmentAction) then { _parentPath = ["ACE_MainActions", "AE3_EquipmentAction"]; };
 
 private _poweredCondition = {
     params ["_target"];
     alive _target && {(_target getVariable ["AE3_power_powerState", 0]) == 1}
 };
 
-private _bankingAction = [
-    "ATM_BankingAction",
-    "Banking",
-    "",
-    { createDialog QCLASS(banking_ui); },
-    _poweredCondition
-] call ace_interact_menu_fnc_createAction;
-[_atm, 0, _parentPath, _bankingAction] call ace_interact_menu_fnc_addActionToObject;
+[_atm] call EFUNC(currency,generateBank);
 
 private _debugAddFundsAction = [
     "ATM_DebugAddFundsAction",
