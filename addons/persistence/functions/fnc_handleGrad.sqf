@@ -28,6 +28,10 @@ if (_type isEqualTo 1) then {
         [QGVAR(grabAE3Storage)] call CBA_fnc_serverEvent;
     };
 
+    if (GVAR(saveAE3Compromise)) then {
+        [QGVAR(grabAE3Compromise)] call CBA_fnc_serverEvent;
+    };
+
     if (GVAR(saveACECargo)) then {
         [QGVAR(grabCargo)] call CBA_fnc_serverEvent;
     };

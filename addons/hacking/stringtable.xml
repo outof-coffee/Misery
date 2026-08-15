@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="MISERY">
+    <Package name="Hacking">
+        <Key ID="STR_MISERY_Hacking_HackAction">
+            <English>Hack Laptop</English>
+            <Czech>Hacknout laptop</Czech>
+            <French>Pirater le laptop</French>
+            <Spanish>Hackear portátil</Spanish>
+            <Italian>Hackera laptop</Italian>
+            <Polish>Zhakuj laptopa</Polish>
+            <Portuguese>Hackear laptop</Portuguese>
+            <Russian>Взломать ноутбук</Russian>
+            <German>Laptop hacken</German>
+            <Korean>노트북 해킹</Korean>
+            <Japanese>ノートパソコンをハッキング</Japanese>
+            <Chinese>入侵筆記型電腦</Chinese>
+            <Chinesesimp>入侵笔记本电脑</Chinesesimp>
+            <Turkish>Dizüstü Bilgisayarı Hackle</Turkish>
+        </Key>
+    </Package>
+</Project>

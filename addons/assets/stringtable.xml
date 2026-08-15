@@ -397,6 +397,38 @@
             <Chinesesimp>个人盖革计数器</Chinesesimp>
             <Turkish>Kişisel Geiger Sayacı</Turkish>
         </Key>
+        <Key ID="STR_MISERY_Assets_HackingToolkit_Description">
+            <English>A specialized toolkit for compromising certain laptops</English>
+            <Czech>Speciální sada nástrojů pro kompromitaci určitých laptopů</Czech>
+            <French>Un kit spécialisé pour compromettre certains laptops</French>
+            <Spanish>Un kit especializado para comprometer ciertos portátiles</Spanish>
+            <Italian>Un kit specializzato per compromettere determinati laptop</Italian>
+            <Polish>Specjalistyczny zestaw narzędzi do przełamywania zabezpieczeń niektórych laptopów</Polish>
+            <Portuguese>Um kit especializado para comprometer certos laptops</Portuguese>
+            <Russian>Специализированный набор инструментов для взлома некоторых ноутбуков</Russian>
+            <German>Ein spezialisiertes Werkzeugset zum Kompromittieren bestimmter Laptops</German>
+            <Korean>특정 노트북을 침해하기 위한 특수 도구 세트</Korean>
+            <Japanese>特定のノートパソコンを侵害するための専用ツールキット</Japanese>
+            <Chinese>用於入侵特定筆記型電腦的專用工具組</Chinese>
+            <Chinesesimp>用于入侵特定笔记本电脑的专用工具组</Chinesesimp>
+            <Turkish>Belirli dizüstü bilgisayarları ele geçirmek için özel bir araç seti</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Assets_HackingToolkit_DisplayName">
+            <English>Hacking Toolkit</English>
+            <Czech>Hackerská sada</Czech>
+            <French>Kit de piratage</French>
+            <Spanish>Kit de hacking</Spanish>
+            <Italian>Kit di hacking</Italian>
+            <Polish>Zestaw hakerski</Polish>
+            <Portuguese>Kit de hacking</Portuguese>
+            <Russian>Набор для взлома</Russian>
+            <German>Hacking-Werkzeugset</German>
+            <Korean>해킹 도구 세트</Korean>
+            <Japanese>ハッキングツールキット</Japanese>
+            <Chinese>駭客工具組</Chinese>
+            <Chinesesimp>黑客工具组</Chinesesimp>
+            <Turkish>Hackleme Aracı Seti</Turkish>
+        </Key>
         <Key ID="STR_MISERY_Assets_Lighter_Description">
             <English>Old lighter...&lt;br/&gt; - Fire crafting</English>
             <Czech>Starý zapalovač...&lt;br/&gt; - Rozdělávání ohně</Czech>
