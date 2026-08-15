@@ -6,7 +6,7 @@ if (isServer) then {
     if (isClass (missionConfigFile >> "CfgGradPersistence")) then {
         {
             [_x] call GRADFUNC(persistence,blacklistClasses);
-        } forEach GVAR(powerEquipment);
+        } forEach (EGVAR(common_ae3,laptops) + EGVAR(common_ae3,solarPanels) + EGVAR(common_ae3,batteryPacks) + EGVAR(common_ae3,generators));
     };
 };
 

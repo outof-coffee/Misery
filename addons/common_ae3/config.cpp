@@ -6,12 +6,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QCLASS(common), QCLASS(common_ae3)};
-        authors[] = {"TenuredCLOUD"};
+        requiredAddons[] = {QCLASS(common), QCLASSAE3(power)};
+        authors[] = {"tsalaroth"};
         VERSION_CONFIG;
     };
 };
 
 #include "CfgEventHandlers.hpp"
-
-

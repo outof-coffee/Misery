@@ -385,6 +385,12 @@
             <Chinesesimp>储存 AE3 状态、电池电量、发电机燃料等... 需要 GRAD persistence</Chinesesimp>
             <Turkish>AE3 durumlarını, batarya seviyelerini, jeneratör yakıtını vb. kaydeder... GRAD persistence gerektirir</Turkish>
         </Key>
+        <Key ID="STR_MISERY_Persistence_SaveAE3Storage">
+            <English>Save AE3 storage (Hacking)</English>
+        </Key>
+        <Key ID="STR_MISERY_Persistence_SaveAE3StorageDesc">
+            <English>Saves AE3 laptop filesystem contents. Requires GRAD persistence</English>
+        </Key>
         <Key ID="STR_MISERY_Persistence_SaveWaterSources">
             <English>Save water sources (Hydrology)</English>
             <Czech>Ukládat vodní zdroje (Hydrologie)</Czech>

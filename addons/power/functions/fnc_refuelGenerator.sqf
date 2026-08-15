@@ -33,7 +33,7 @@ if !([[_foundCanClass]] call EFUNC(common,hasItem)) exitWith {
 
 private _generatorClass = typeOf _generator;
 private _maxTankCapacity = switch (true) do {
-    case (_generatorClass in (GVAR(generators) select [0, 4])): { 5 };
+    case (_generatorClass in (EGVAR(common_ae3,generators) select [0, 4])): { 5 };
     case (_generatorClass isEqualTo "Land_MobileRadar_01_generator_F_AE3"): { 470 };
     default { 300 };
 };

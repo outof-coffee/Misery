@@ -14,6 +14,11 @@ if (GVAR(saveAE3States)) then {
     [{ call EFUNC(power,applyStates); }, [], 0.2] call CBA_fnc_waitAndExecute;
 };
 
+if (GVAR(saveAE3Storage)) then {
+    [QGVAR(grabAE3Storage), {call EFUNC(hacking,grabStorageStates)}] call CBA_fnc_addEventHandler;
+    [{ call EFUNC(hacking,applyStorageStates); }, [], 0.2] call CBA_fnc_waitAndExecute;
+};
+
 if (GVAR(saveACECargo)) then {
     [QCLASSACE(cargoLoaded), {
         params ["_item", "_vehicle"];

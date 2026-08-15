@@ -16,6 +16,6 @@
 
 params ["_generator"];
 
-if ((typeOf _generator) in (GVAR(generators) select [0, 4])) exitWith { 1 };
+if ((typeOf _generator) in (EGVAR(common_ae3,generators) select [0, 4])) exitWith { 1 };
 
 0
