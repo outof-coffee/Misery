@@ -9,6 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             QCLASS(common),
             QCLASS(assets),
+            QCLASS(currency),
             QCLASSAE3(power),
             QCLASSAE3(network),
             QCLASSAE3(filesystem),
@@ -21,4 +22,5 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgOsFunctions.hpp"
 #include "CfgVehicles.hpp"

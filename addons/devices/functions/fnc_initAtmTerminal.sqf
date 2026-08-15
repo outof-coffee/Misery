@@ -17,6 +17,11 @@
 
 params ["_atm"];
 
+if (isServer && {!(_atm getVariable [QGVAR(commandsInstalled), false])}) then {
+    _atm setVariable [QGVAR(commandsInstalled), true];
+    [_atm, ["balance", "cash"], false, false, []] call AE3_armaos_fnc_computer_initWithCommands;
+};
+
 if (isDedicated) exitWith {};
 if (_atm getVariable [QGVAR(actionsAdded), false]) exitWith {};
 _atm setVariable [QGVAR(actionsAdded), true];

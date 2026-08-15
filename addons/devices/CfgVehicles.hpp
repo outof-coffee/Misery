@@ -27,5 +27,24 @@ class CfgVehicles {
                 powerConsumption = 0.03/3600;
             };
         };
+
+        class AE3_InternalDevice {
+            displayName = ECSTRING(assets,WalletMartAtm_DisplayName);
+            defaultPowerLevel = 1;
+
+            turnOnAction = "_this + [true] call AE3_power_fnc_turnOnBatteryAction";
+            turnOffAction = "";
+
+            class AE3_PowerInterface {
+                internal = 1;
+            };
+
+            class AE3_Battery {
+                capacity = 0.1;
+                recharging = 0.05/3600;
+                level = 0.1;
+                internal = 1;
+            };
+        };
     };
 };

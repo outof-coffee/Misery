@@ -7,6 +7,7 @@ class CfgVehicles {
     class CLASS(walletMartAtm): Land_atm_01_F {
         displayName = CSTRING(WalletMartAtm_DisplayName);
         MACRO_THING_COMMON;
+        XEH_ENABLED;
         side = 3;
         faction = "CIV_F";
         icon = "iconObject_1x1";
