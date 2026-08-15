@@ -18,20 +18,20 @@
             <Turkish>Durumu Kontrol Et</Turkish>
         </Key>
         <Key ID="STR_MISERY_Hacking_HackAction">
-            <English>Hack Laptop</English>
-            <Czech>Hacknout laptop</Czech>
-            <French>Pirater le laptop</French>
-            <Spanish>Hackear portátil</Spanish>
-            <Italian>Hackera laptop</Italian>
-            <Polish>Zhakuj laptopa</Polish>
-            <Portuguese>Hackear laptop</Portuguese>
-            <Russian>Взломать ноутбук</Russian>
-            <German>Laptop hacken</German>
-            <Korean>노트북 해킹</Korean>
-            <Japanese>ノートパソコンをハッキング</Japanese>
-            <Chinese>入侵筆記型電腦</Chinese>
-            <Chinesesimp>入侵笔记本电脑</Chinesesimp>
-            <Turkish>Dizüstü Bilgisayarı Hackle</Turkish>
+            <English>Debug Hack</English>
+            <Czech>Ladicí hack</Czech>
+            <French>Piratage de débogage</French>
+            <Spanish>Hack de depuración</Spanish>
+            <Italian>Hack di debug</Italian>
+            <Polish>Hack debugowania</Polish>
+            <Portuguese>Hack de depuração</Portuguese>
+            <Russian>Отладочный взлом</Russian>
+            <German>Debug-Hack</German>
+            <Korean>디버그 해킹</Korean>
+            <Japanese>デバッグハッキング</Japanese>
+            <Chinese>除錯入侵</Chinese>
+            <Chinesesimp>调试入侵</Chinesesimp>
+            <Turkish>Hata Ayıklama Hackleme</Turkish>
         </Key>
         <Key ID="STR_MISERY_Hacking_HackToolkitMenu">
             <English>Hacking Toolkit</English>

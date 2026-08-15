@@ -414,20 +414,20 @@
             <Turkish>Belirli dizüstü bilgisayarları ele geçirmek için özel bir araç seti</Turkish>
         </Key>
         <Key ID="STR_MISERY_Assets_HackingToolkit_DisplayName">
-            <English>Hacking Toolkit</English>
-            <Czech>Hackerská sada</Czech>
-            <French>Kit de piratage</French>
-            <Spanish>Kit de hacking</Spanish>
-            <Italian>Kit di hacking</Italian>
-            <Polish>Zestaw hakerski</Polish>
-            <Portuguese>Kit de hacking</Portuguese>
-            <Russian>Набор для взлома</Russian>
-            <German>Hacking-Werkzeugset</German>
-            <Korean>해킹 도구 세트</Korean>
-            <Japanese>ハッキングツールキット</Japanese>
-            <Chinese>駭客工具組</Chinese>
-            <Chinesesimp>黑客工具组</Chinesesimp>
-            <Turkish>Hackleme Aracı Seti</Turkish>
+            <English>Hacking Debug Tool</English>
+            <Czech>Hackerský ladicí nástroj</Czech>
+            <French>Outil de débogage de piratage</French>
+            <Spanish>Herramienta de depuración de hacking</Spanish>
+            <Italian>Strumento di debug per hacking</Italian>
+            <Polish>Narzędzie debugowania hakowania</Polish>
+            <Portuguese>Ferramenta de depuração de hacking</Portuguese>
+            <Russian>Отладочный инструмент взлома</Russian>
+            <German>Hacking-Debug-Werkzeug</German>
+            <Korean>해킹 디버그 도구</Korean>
+            <Japanese>ハッキングデバッグツール</Japanese>
+            <Chinese>駭客除錯工具</Chinese>
+            <Chinesesimp>黑客调试工具</Chinesesimp>
+            <Turkish>Hackleme Hata Ayıklama Aracı</Turkish>
         </Key>
         <Key ID="STR_MISERY_Assets_Lighter_Description">
             <English>Old lighter...&lt;br/&gt; - Fire crafting</English>
