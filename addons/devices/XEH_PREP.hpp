@@ -4,5 +4,3 @@ PREP(fobActions);
 PREP(getWalletFolder);
 PREP(giveFobMoney);
 PREP(initAtmActions);
-PREP(showBalance);
-PREP(showCash);

@@ -1,8 +1,8 @@
 #include "..\script_component.hpp"
 /*
- * Adds the "Balance" and "Cash" ACE interactions to a WalletMart ATM.
- * The ATM does not expose an AE3 terminal/login - these are direct
- * hint-based lookups against the currency addon instead.
+ * Adds the "Banking" ACE interaction to a WalletMart ATM. The ATM does not
+ * expose an AE3 terminal/login - this opens the shared currency bank dialog
+ * instead, which already shows both cash and banked balances.
  *
  * Arguments:
  * 0: Target ATM <OBJECT>
@@ -29,23 +29,14 @@ private _poweredCondition = {
     alive _target && {(_target getVariable ["AE3_power_powerState", 0]) == 1}
 };
 
-private _balanceAction = [
-    "ATM_BalanceAction",
-    "Balance",
+private _bankingAction = [
+    "ATM_BankingAction",
+    "Banking",
     "",
-    { call FUNC(showBalance); },
+    { createDialog QCLASS(banking_ui); },
     _poweredCondition
 ] call ace_interact_menu_fnc_createAction;
-[_atm, 0, _parentPath, _balanceAction] call ace_interact_menu_fnc_addActionToObject;
-
-private _cashAction = [
-    "ATM_CashAction",
-    "Cash",
-    "",
-    { call FUNC(showCash); },
-    _poweredCondition
-] call ace_interact_menu_fnc_createAction;
-[_atm, 0, _parentPath, _cashAction] call ace_interact_menu_fnc_addActionToObject;
+[_atm, 0, _parentPath, _bankingAction] call ace_interact_menu_fnc_addActionToObject;
 
 private _debugAddFundsAction = [
     "ATM_DebugAddFundsAction",
