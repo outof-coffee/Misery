@@ -397,39 +397,7 @@
             <Chinesesimp>个人盖革计数器</Chinesesimp>
             <Turkish>Kişisel Geiger Sayacı</Turkish>
         </Key>
-        <Key ID="STR_MISERY_Assets_HackingKit_Description">
-            <English>A specialized toolkit for stealing data from certain laptops</English>
-            <Czech>Speciální sada nástrojů pro krádež dat z určitých laptopů</Czech>
-            <French>Un kit spécialisé pour voler des données depuis certains laptops</French>
-            <Spanish>Un kit especializado para robar datos de ciertos portátiles</Spanish>
-            <Italian>Un kit specializzato per rubare dati da determinati laptop</Italian>
-            <Polish>Specjalistyczny zestaw narzędzi do kradzieży danych z niektórych laptopów</Polish>
-            <Portuguese>Um kit especializado para roubar dados de certos laptops</Portuguese>
-            <Russian>Специализированный набор инструментов для кражи данных с некоторых ноутбуков</Russian>
-            <German>Ein spezialisiertes Werkzeugset zum Stehlen von Daten von bestimmten Laptops</German>
-            <Korean>특정 노트북에서 데이터를 훔치기 위한 특수 도구 세트</Korean>
-            <Japanese>特定のノートパソコンからデータを盗むための専用ツールキット</Japanese>
-            <Chinese>用於從特定筆記型電腦竊取資料的專用工具組</Chinese>
-            <Chinesesimp>用于从特定笔记本电脑窃取数据的专用工具组</Chinesesimp>
-            <Turkish>Belirli dizüstü bilgisayarlardan veri çalmak için özel bir araç seti</Turkish>
-        </Key>
-        <Key ID="STR_MISERY_Assets_HackingKit_DisplayName">
-            <English>Hacking Toolkit</English>
-            <Czech>Hackerská sada</Czech>
-            <French>Kit de piratage</French>
-            <Spanish>Kit de hacking</Spanish>
-            <Italian>Kit di hacking</Italian>
-            <Polish>Zestaw hakerski</Polish>
-            <Portuguese>Kit de hacking</Portuguese>
-            <Russian>Набор для взлома</Russian>
-            <German>Hacking-Werkzeugset</German>
-            <Korean>해킹 도구 세트</Korean>
-            <Japanese>ハッキングツールキット</Japanese>
-            <Chinese>駭客工具組</Chinese>
-            <Chinesesimp>黑客工具组</Chinesesimp>
-            <Turkish>Hackleme Aracı Seti</Turkish>
-        </Key>
-        <Key ID="STR_MISERY_Assets_HackingToolkit_Description">
+        <Key ID="STR_MISERY_Assets_HackingDebugTool_Description">
             <English>A specialized toolkit for compromising certain laptops</English>
             <Czech>Speciální sada nástrojů pro kompromitaci určitých laptopů</Czech>
             <French>Un kit spécialisé pour compromettre certains laptops</French>
@@ -445,7 +413,7 @@
             <Chinesesimp>用于入侵特定笔记本电脑的专用工具组</Chinesesimp>
             <Turkish>Belirli dizüstü bilgisayarları ele geçirmek için özel bir araç seti</Turkish>
         </Key>
-        <Key ID="STR_MISERY_Assets_HackingToolkit_DisplayName">
+        <Key ID="STR_MISERY_Assets_HackingDebugTool_DisplayName">
             <English>Hacking Debug Tool</English>
             <Czech>Hackerský ladicí nástroj</Czech>
             <French>Outil de débogage de piratage</French>
@@ -460,6 +428,38 @@
             <Chinese>駭客除錯工具</Chinese>
             <Chinesesimp>黑客调试工具</Chinesesimp>
             <Turkish>Hackleme Hata Ayıklama Aracı</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Assets_HackingToolkit_Description">
+            <English>A specialized toolkit for stealing data from certain laptops</English>
+            <Czech>Speciální sada nástrojů pro krádež dat z určitých laptopů</Czech>
+            <French>Un kit spécialisé pour voler des données depuis certains laptops</French>
+            <Spanish>Un kit especializado para robar datos de ciertos portátiles</Spanish>
+            <Italian>Un kit specializzato per rubare dati da determinati laptop</Italian>
+            <Polish>Specjalistyczny zestaw narzędzi do kradzieży danych z niektórych laptopów</Polish>
+            <Portuguese>Um kit especializado para roubar dados de certos laptops</Portuguese>
+            <Russian>Специализированный набор инструментов для кражи данных с некоторых ноутбуков</Russian>
+            <German>Ein spezialisiertes Werkzeugset zum Stehlen von Daten von bestimmten Laptops</German>
+            <Korean>특정 노트북에서 데이터를 훔치기 위한 특수 도구 세트</Korean>
+            <Japanese>特定のノートパソコンからデータを盗むための専用ツールキット</Japanese>
+            <Chinese>用於從特定筆記型電腦竊取資料的專用工具組</Chinese>
+            <Chinesesimp>用于从特定笔记本电脑窃取数据的专用工具组</Chinesesimp>
+            <Turkish>Belirli dizüstü bilgisayarlardan veri çalmak için özel bir araç seti</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Assets_HackingToolkit_DisplayName">
+            <English>Hacking Toolkit</English>
+            <Czech>Hackerská sada</Czech>
+            <French>Kit de piratage</French>
+            <Spanish>Kit de hacking</Spanish>
+            <Italian>Kit di hacking</Italian>
+            <Polish>Zestaw hakerski</Polish>
+            <Portuguese>Kit de hacking</Portuguese>
+            <Russian>Набор для взлома</Russian>
+            <German>Hacking-Werkzeugset</German>
+            <Korean>해킹 도구 세트</Korean>
+            <Japanese>ハッキングツールキット</Japanese>
+            <Chinese>駭客工具組</Chinese>
+            <Chinesesimp>黑客工具组</Chinesesimp>
+            <Turkish>Hackleme Aracı Seti</Turkish>
         </Key>
         <Key ID="STR_MISERY_Assets_Lighter_Description">
             <English>Old lighter...&lt;br/&gt; - Fire crafting</English>

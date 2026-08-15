@@ -4,8 +4,8 @@ Adds ACE interactions for compromising AE3 laptops and moving data/funds around 
 
 ## Items (defined in `assets`)
 
-- **Hacking Debug Tool** (`hackingToolkit`) — unlocks the "Debug Tools" submenu on any laptop. For testing, not intended for real play.
-- **Hacking Toolkit** (`hackingKit`) — unlocks the real "Hacking Toolkit" submenu.
+- **Hacking Debug Tool** (`hackingDebugTool`) — unlocks the "Debug Tools" submenu on any laptop. For testing, not intended for real play.
+- **Hacking Toolkit** (`hackingToolkit`) — unlocks the real "Hacking Toolkit" submenu.
 - **WalletMart Fob** (`walletFob`) — required by both parties for "Give Fob Money."
 
 Give these to a unit the same way as any other Misery item: Eden loadout, Arsenal, or a script.

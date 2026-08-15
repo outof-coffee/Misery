@@ -14,14 +14,14 @@
  *
 */
 
-private _hackToolkitMenu = [
-    QGVAR(hackToolkit_MainMenu),
-    localize LSTRING(HackToolkitMenu),
+private _hackDebugToolMenu = [
+    QGVAR(hackDebugTool_MainMenu),
+    localize LSTRING(HackDebugToolMenu),
     QPATHTOEF(icons,data\circuit_board_ca.paa),
     {},
     {
         params ["_target", "_player"];
-        [[QCLASS(hackingToolkit)]] call EFUNC(common,hasItem)
+        [[QCLASS(hackingDebugTool)]] call EFUNC(common,hasItem)
     },
     {},
     ["_target", "_player"],
@@ -61,14 +61,14 @@ private _checkStatusAction = [
     3
 ] call ACEFUNC(interact_menu,createAction);
 
-private _hackingKitMenu = [
-    QGVAR(hackingKit_MainMenu),
-    localize LSTRING(RealToolkitMenu),
+private _hackingToolkitMenu = [
+    QGVAR(hackingToolkit_MainMenu),
+    localize LSTRING(HackingToolkitMenu),
     QPATHTOEF(icons,data\circuit_board_ca.paa),
     {},
     {
         params ["_target", "_player"];
-        [[QCLASS(hackingKit)]] call EFUNC(common,hasItem)
+        [[QCLASS(hackingToolkit)]] call EFUNC(common,hasItem)
     },
     {},
     ["_target", "_player"],
@@ -125,11 +125,11 @@ private _listWalletsAction = [
 ] call ACEFUNC(interact_menu,createAction);
 
 {
-    [_x, 0, [QUOTE(ACE_MainActions)], _hackToolkitMenu] call ACEFUNC(interact_menu,addActionToClass);
-    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackToolkit_MainMenu)], _hackAction] call ACEFUNC(interact_menu,addActionToClass);
-    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackToolkit_MainMenu)], _checkStatusAction] call ACEFUNC(interact_menu,addActionToClass);
-    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackToolkit_MainMenu)], _createWalletAction] call ACEFUNC(interact_menu,addActionToClass);
-    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackToolkit_MainMenu)], _listWalletsAction] call ACEFUNC(interact_menu,addActionToClass);
-    [_x, 0, [QUOTE(ACE_MainActions)], _hackingKitMenu] call ACEFUNC(interact_menu,addActionToClass);
-    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackingKit_MainMenu)], _stealDataAction] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions)], _hackDebugToolMenu] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackDebugTool_MainMenu)], _hackAction] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackDebugTool_MainMenu)], _checkStatusAction] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackDebugTool_MainMenu)], _createWalletAction] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackDebugTool_MainMenu)], _listWalletsAction] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions)], _hackingToolkitMenu] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackingToolkit_MainMenu)], _stealDataAction] call ACEFUNC(interact_menu,addActionToClass);
 } forEach EGVAR(devices,laptops);

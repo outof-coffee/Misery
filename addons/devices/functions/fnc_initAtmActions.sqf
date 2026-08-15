@@ -47,7 +47,7 @@ private _debugAddFundsAction = [
         params ["_target"];
         alive _target &&
         {(_target getVariable ["AE3_power_powerState", 0]) == 1} &&
-        {[[QCLASS(hackingToolkit)]] call EFUNC(common,hasItem)}
+        {[[QCLASS(hackingDebugTool)]] call EFUNC(common,hasItem)}
     }
 ] call ace_interact_menu_fnc_createAction;
 [_atm, 0, _parentPath, _debugAddFundsAction] call ace_interact_menu_fnc_addActionToObject;

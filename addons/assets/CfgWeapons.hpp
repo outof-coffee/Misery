@@ -66,9 +66,9 @@ class CfgWeapons {
         };
     };
 
-    class CLASS(hackingToolkit): CLASS(ItemCore) {
-        displayName = CSTRING(HackingToolkit_DisplayName);
-        descriptionShort = CSTRING(HackingToolkit_Description);
+    class CLASS(hackingDebugTool): CLASS(ItemCore) {
+        displayName = CSTRING(HackingDebugTool_DisplayName);
+        descriptionShort = CSTRING(HackingDebugTool_Description);
         picture = QPATHTOEF(icons,data\circuit_board_ca.paa);
         scope = 2;
         scopeCurator = 2;
@@ -78,9 +78,9 @@ class CfgWeapons {
         };
     };
 
-    class CLASS(hackingKit): CLASS(ItemCore) {
-        displayName = CSTRING(HackingKit_DisplayName);
-        descriptionShort = CSTRING(HackingKit_Description);
+    class CLASS(hackingToolkit): CLASS(ItemCore) {
+        displayName = CSTRING(HackingToolkit_DisplayName);
+        descriptionShort = CSTRING(HackingToolkit_Description);
         picture = QPATHTOEF(icons,data\circuit_board_ca.paa);
         scope = 2;
         scopeCurator = 2;

@@ -65,7 +65,7 @@
             <Chinesesimp>调试入侵</Chinesesimp>
             <Turkish>Hata Ayıklama Hackleme</Turkish>
         </Key>
-        <Key ID="STR_MISERY_Hacking_HackToolkitMenu">
+        <Key ID="STR_MISERY_Hacking_HackDebugToolMenu">
             <English>Debug Tools</English>
             <Czech>Ladicí nástroje</Czech>
             <French>Outils de débogage</French>
@@ -80,6 +80,22 @@
             <Chinese>除錯工具</Chinese>
             <Chinesesimp>调试工具</Chinesesimp>
             <Turkish>Hata Ayıklama Araçları</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_HackingToolkitMenu">
+            <English>Hacking Toolkit</English>
+            <Czech>Hackerská sada</Czech>
+            <French>Kit de piratage</French>
+            <Spanish>Kit de hacking</Spanish>
+            <Italian>Kit di hacking</Italian>
+            <Polish>Zestaw hakerski</Polish>
+            <Portuguese>Kit de hacking</Portuguese>
+            <Russian>Набор для взлома</Russian>
+            <German>Hacking-Werkzeugset</German>
+            <Korean>해킹 도구 세트</Korean>
+            <Japanese>ハッキングツールキット</Japanese>
+            <Chinese>駭客工具組</Chinese>
+            <Chinesesimp>黑客工具组</Chinesesimp>
+            <Turkish>Hackleme Aracı Seti</Turkish>
         </Key>
         <Key ID="STR_MISERY_Hacking_ListWalletsAction">
             <English>List Wallets</English>
@@ -112,22 +128,6 @@
             <Chinese>找不到錢包資料夾</Chinese>
             <Chinesesimp>找不到钱包文件夹</Chinesesimp>
             <Turkish>Cüzdan klasörü bulunamadı</Turkish>
-        </Key>
-        <Key ID="STR_MISERY_Hacking_RealToolkitMenu">
-            <English>Hacking Toolkit</English>
-            <Czech>Hackerská sada</Czech>
-            <French>Kit de piratage</French>
-            <Spanish>Kit de hacking</Spanish>
-            <Italian>Kit di hacking</Italian>
-            <Polish>Zestaw hakerski</Polish>
-            <Portuguese>Kit de hacking</Portuguese>
-            <Russian>Набор для взлома</Russian>
-            <German>Hacking-Werkzeugset</German>
-            <Korean>해킹 도구 세트</Korean>
-            <Japanese>ハッキングツールキット</Japanese>
-            <Chinese>駭客工具組</Chinese>
-            <Chinesesimp>黑客工具组</Chinesesimp>
-            <Turkish>Hackleme Aracı Seti</Turkish>
         </Key>
         <Key ID="STR_MISERY_Hacking_StatusClean">
             <English>This laptop has not been compromised</English>
