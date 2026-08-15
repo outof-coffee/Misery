@@ -32,6 +32,6 @@ private _masterStorageMap = createHashMap;
             _masterStorageMap set [_key, [typeOf _laptop, _filesystemData, getPosASL _laptop]];
         };
     } forEach (allMissionObjects _x);
-} forEach EGVAR(common_ae3,laptops);
+} forEach EGVAR(devices,laptops);
 
 missionNamespace setVariable [QGVAR(storageStates), _masterStorageMap, true];

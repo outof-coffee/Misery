@@ -16,9 +16,9 @@
 
 if (!isServer) exitWith {};
 
-private _nestedDevices = EGVAR(common_ae3,solarPanels) + EGVAR(common_ae3,laptops);
-private _directDevices = EGVAR(common_ae3,batteryPacks);
-private _fueledDevices = EGVAR(common_ae3,generators);
+private _nestedDevices = EGVAR(devices,solarPanels) + EGVAR(devices,laptops);
+private _directDevices = EGVAR(devices,batteryPacks);
+private _fueledDevices = EGVAR(devices,generators);
 
 private _masterDeviceMap = createHashMap;
 

@@ -65,4 +65,4 @@ private _checkStatusAction = [
     [_x, 0, [QUOTE(ACE_MainActions)], _hackToolkitMenu] call ACEFUNC(interact_menu,addActionToClass);
     [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackToolkit_MainMenu)], _hackAction] call ACEFUNC(interact_menu,addActionToClass);
     [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackToolkit_MainMenu)], _checkStatusAction] call ACEFUNC(interact_menu,addActionToClass);
-} forEach EGVAR(common_ae3,laptops);
+} forEach EGVAR(devices,laptops);

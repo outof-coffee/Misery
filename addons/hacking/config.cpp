@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QCLASS(common), QCLASS(common_ae3)};
+        requiredAddons[] = {QCLASS(common), QCLASS(devices)};
         authors[] = {"tsalaroth"};
         VERSION_CONFIG;
     };

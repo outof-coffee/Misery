@@ -30,6 +30,6 @@ private _masterCompromiseMap = createHashMap;
             _masterCompromiseMap set [_key, [typeOf _laptop, getPosASL _laptop]];
         };
     } forEach (allMissionObjects _x);
-} forEach EGVAR(common_ae3,laptops);
+} forEach EGVAR(devices,laptops);
 
 missionNamespace setVariable [QGVAR(compromiseStates), _masterCompromiseMap, true];
