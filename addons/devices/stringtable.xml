@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="MISERY">
     <Package name="Devices">
+        <Key ID="STR_MISERY_Devices_FobMoneyGiven">
+            <English>Balance transferred to their fob</English>
+            <Czech>Zůstatek byl převeden na jejich fob</Czech>
+            <French>Solde transféré sur leur fob</French>
+            <Spanish>Saldo transferido a su fob</Spanish>
+            <Italian>Saldo trasferito sul loro fob</Italian>
+            <Polish>Saldo przekazane na ich fob</Polish>
+            <Portuguese>Saldo transferido para o fob deles</Portuguese>
+            <Russian>Баланс передан на их фоб</Russian>
+            <German>Guthaben auf ihren Fob übertragen</German>
+            <Korean>상대방의 포브로 잔액이 전달되었습니다</Korean>
+            <Japanese>相手のフォブに残高が転送されました</Japanese>
+            <Chinese>餘額已轉移至對方的隨身裝置</Chinese>
+            <Chinesesimp>余额已转移至对方的随身装置</Chinesesimp>
+            <Turkish>Bakiye onların fobuna aktarıldı</Turkish>
+        </Key>
         <Key ID="STR_MISERY_Devices_GiveFobMoneyAction">
             <English>Give Fob Money</English>
             <Czech>Předat peníze z fobu</Czech>
@@ -32,22 +48,6 @@
             <Chinese>您的隨身裝置沒有可轉移的餘額</Chinese>
             <Chinesesimp>您的随身装置没有可转移的余额</Chinesesimp>
             <Turkish>Fobunuzda verilecek bakiye yok</Turkish>
-        </Key>
-        <Key ID="STR_MISERY_Devices_FobMoneyGiven">
-            <English>Balance transferred to their fob</English>
-            <Czech>Zůstatek byl převeden na jejich fob</Czech>
-            <French>Solde transféré sur leur fob</French>
-            <Spanish>Saldo transferido a su fob</Spanish>
-            <Italian>Saldo trasferito sul loro fob</Italian>
-            <Polish>Saldo przekazane na ich fob</Polish>
-            <Portuguese>Saldo transferido para o fob deles</Portuguese>
-            <Russian>Баланс передан на их фоб</Russian>
-            <German>Guthaben auf ihren Fob übertragen</German>
-            <Korean>상대방의 포브로 잔액이 전달되었습니다</Korean>
-            <Japanese>相手のフォブに残高が転送されました</Japanese>
-            <Chinese>餘額已轉移至對方的隨身裝置</Chinese>
-            <Chinesesimp>余额已转移至对方的随身装置</Chinesesimp>
-            <Turkish>Bakiye onların fobuna aktarıldı</Turkish>
         </Key>
     </Package>
 </Project>
