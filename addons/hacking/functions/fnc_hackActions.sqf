@@ -14,19 +14,13 @@
  *
 */
 
-private _hackAction = [
-    QGVAR(hackLaptop),
-    localize LSTRING(HackAction),
+private _hackToolkitMenu = [
+    QGVAR(hackToolkit_MainMenu),
+    localize LSTRING(HackToolkitMenu),
     QPATHTOEF(icons,data\circuit_board_ca.paa),
+    {},
     {
         params ["_target", "_player"];
-
-        [_player, _target] call FUNC(hackLaptop);
-    },
-    {
-        params ["_target", "_player"];
-        if (_target getVariable [QGVAR(compromised), false]) exitWith { false };
-
         [[QCLASS(hackingToolkit)]] call EFUNC(common,hasItem)
     },
     {},
@@ -35,6 +29,40 @@ private _hackAction = [
     3
 ] call ACEFUNC(interact_menu,createAction);
 
+private _hackAction = [
+    QGVAR(hackLaptop),
+    localize LSTRING(HackAction),
+    "",
+    {
+        params ["_target", "_player"];
+
+        [_player, _target] call FUNC(hackLaptop);
+    },
+    {true},
+    {},
+    ["_target", "_player"],
+    [0, 0, 0],
+    3
+] call ACEFUNC(interact_menu,createAction);
+
+private _checkStatusAction = [
+    QGVAR(checkStatus),
+    localize LSTRING(CheckStatusAction),
+    "",
+    {
+        params ["_target", "_player"];
+
+        [_target] call FUNC(checkCompromiseStatus);
+    },
+    {true},
+    {},
+    ["_target", "_player"],
+    [0, 0, 0],
+    3
+] call ACEFUNC(interact_menu,createAction);
+
 {
-    [_x, 0, [QUOTE(ACE_MainActions)], _hackAction] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions)], _hackToolkitMenu] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackToolkit_MainMenu)], _hackAction] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackToolkit_MainMenu)], _checkStatusAction] call ACEFUNC(interact_menu,addActionToClass);
 } forEach EGVAR(common_ae3,laptops);
