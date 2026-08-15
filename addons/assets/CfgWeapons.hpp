@@ -90,6 +90,18 @@ class CfgWeapons {
         };
     };
 
+    class CLASS(walletFob): CLASS(ItemCore) {
+        displayName = CSTRING(WalletFob_DisplayName);
+        descriptionShort = CSTRING(WalletFob_Description);
+        picture = QPATHTOEF(icons,data\circuit_board_ca.paa);
+        scope = 2;
+        scopeCurator = 2;
+
+        class ItemInfo: CBA_MiscItem_ItemInfo {
+            mass = 2;
+        };
+    };
+
     class CLASS(clozapine): CLASS(ItemCore) {
         CLASSACE(isMedicalItem) = 1;
         displayName = CSTRING(Clozapine_DisplayName);

@@ -49,22 +49,6 @@
             <Chinesesimp>数据已复制到您的黑客工具组</Chinesesimp>
             <Turkish>Veriler Hackleme Aracı Setinize kopyalandı</Turkish>
         </Key>
-        <Key ID="STR_MISERY_Hacking_DataStored">
-            <English>Data stored on the Hacking Station</English>
-            <Czech>Data uložena na hackerské stanici</Czech>
-            <French>Données stockées sur la station de piratage</French>
-            <Spanish>Datos almacenados en la estación de hacking</Spanish>
-            <Italian>Dati archiviati sulla stazione di hacking</Italian>
-            <Polish>Dane zapisane na stacji hakerskiej</Polish>
-            <Portuguese>Dados armazenados na estação de hacking</Portuguese>
-            <Russian>Данные сохранены на станции взлома</Russian>
-            <German>Daten auf der Hacking-Station gespeichert</German>
-            <Korean>데이터가 해킹 스테이션에 저장되었습니다</Korean>
-            <Japanese>データがハッキングステーションに保存されました</Japanese>
-            <Chinese>資料已儲存於駭客站</Chinese>
-            <Chinesesimp>数据已储存于黑客站</Chinesesimp>
-            <Turkish>Veriler Hackleme İstasyonuna kaydedildi</Turkish>
-        </Key>
         <Key ID="STR_MISERY_Hacking_HackAction">
             <English>Debug Hack</English>
             <Czech>Ladicí hack</Czech>
@@ -112,22 +96,6 @@
             <Chinese>列出錢包</Chinese>
             <Chinesesimp>列出钱包</Chinesesimp>
             <Turkish>Cüzdanları Listele</Turkish>
-        </Key>
-        <Key ID="STR_MISERY_Hacking_NoDataToStore">
-            <English>No stolen data to store</English>
-            <Czech>Žádná ukradená data k uložení</Czech>
-            <French>Aucune donnée volée à stocker</French>
-            <Spanish>No hay datos robados que almacenar</Spanish>
-            <Italian>Nessun dato rubato da archiviare</Italian>
-            <Polish>Brak skradzionych danych do zapisania</Polish>
-            <Portuguese>Nenhum dado roubado para armazenar</Portuguese>
-            <Russian>Нет украденных данных для сохранения</Russian>
-            <German>Keine gestohlenen Daten zum Speichern</German>
-            <Korean>저장할 훔친 데이터가 없습니다</Korean>
-            <Japanese>保存する盗まれたデータがありません</Japanese>
-            <Chinese>沒有可儲存的竊取資料</Chinese>
-            <Chinesesimp>没有可储存的窃取数据</Chinesesimp>
-            <Turkish>Saklanacak çalıntı veri yok</Turkish>
         </Key>
         <Key ID="STR_MISERY_Hacking_NoWalletsFound">
             <English>No wallet folder found</English>

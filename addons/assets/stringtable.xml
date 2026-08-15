@@ -781,6 +781,38 @@
             <Chinesesimp>安眠药包装</Chinesesimp>
             <Turkish>Uyku hapı paketi</Turkish>
         </Key>
+        <Key ID="STR_MISERY_Assets_WalletFob_Description">
+            <English>A WalletMart-issued device for storing and transferring digital funds</English>
+            <Czech>Zařízení vydávané společností WalletMart pro ukládání a převod digitálních prostředků</Czech>
+            <French>Un appareil délivré par WalletMart pour stocker et transférer des fonds numériques</French>
+            <Spanish>Un dispositivo emitido por WalletMart para almacenar y transferir fondos digitales</Spanish>
+            <Italian>Un dispositivo rilasciato da WalletMart per archiviare e trasferire fondi digitali</Italian>
+            <Polish>Urządzenie wydane przez WalletMart do przechowywania i przesyłania cyfrowych środków</Polish>
+            <Portuguese>Um dispositivo emitido pela WalletMart para armazenar e transferir fundos digitais</Portuguese>
+            <Russian>Устройство от WalletMart для хранения и передачи цифровых средств</Russian>
+            <German>Ein von WalletMart ausgegebenes Gerät zum Speichern und Übertragen digitaler Gelder</German>
+            <Korean>디지털 자금을 저장하고 전송하기 위한 WalletMart 발행 장치</Korean>
+            <Japanese>デジタル資金の保管と送金のためのWalletMart発行デバイス</Japanese>
+            <Chinese>WalletMart 發行的數位資金儲存與轉帳裝置</Chinese>
+            <Chinesesimp>WalletMart 发行的数字资金储存与转账装置</Chinesesimp>
+            <Turkish>Dijital fonları saklamak ve transfer etmek için WalletMart tarafından verilen bir cihaz</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Assets_WalletFob_DisplayName">
+            <English>WalletMart Fob</English>
+            <Czech>WalletMart fob</Czech>
+            <French>Porte-clés WalletMart</French>
+            <Spanish>Llavero WalletMart</Spanish>
+            <Italian>Portachiavi WalletMart</Italian>
+            <Polish>Brelok WalletMart</Polish>
+            <Portuguese>Chaveiro WalletMart</Portuguese>
+            <Russian>Фоб WalletMart</Russian>
+            <German>WalletMart-Fob</German>
+            <Korean>월마트 지갑 포브</Korean>
+            <Japanese>WalletMart フォブ</Japanese>
+            <Chinese>WalletMart 隨身裝置</Chinese>
+            <Chinesesimp>WalletMart 随身装置</Chinesesimp>
+            <Turkish>WalletMart Fob</Turkish>
+        </Key>
         <Key ID="STR_Misery_Assets_18VBattery_Description">
             <English>18v battery for handheld tools</English>
             <Czech>Baterie 18V pro AKU nářadí</Czech>

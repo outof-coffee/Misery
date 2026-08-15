@@ -93,6 +93,7 @@
     QCLASS(tinder), \
     QCLASS(toySoldier), \
     QCLASS(vintageShipBottle), \
+    QCLASS(walletFob), \
     QCLASS(waterBottle_Empty), \
     QCLASS(waterJerryCan_Empty), \
     QCLASS(woodaxe), \
