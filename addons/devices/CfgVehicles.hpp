@@ -3,7 +3,7 @@ class CfgVehicles {
     class CLASS(walletMartAtm): Land_atm_01_F {
         class AE3_Equipment {
             displayName = ECSTRING(assets,WalletMartAtm_DisplayName);
-            init = QUOTE(call FUNC(initAtmTerminal));
+            init = QUOTE(call FUNC(initAtmActions));
         };
 
         class AE3_Device {

@@ -1,7 +1,8 @@
 PREP(createWalletmartUser);
+PREP(debugAddFunds);
 PREP(fobActions);
 PREP(getWalletFolder);
 PREP(giveFobMoney);
-PREP(initAtmTerminal);
-PREP(osBalance);
-PREP(osCash);
+PREP(initAtmActions);
+PREP(showBalance);
+PREP(showCash);
