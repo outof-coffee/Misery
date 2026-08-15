@@ -387,9 +387,35 @@
         </Key>
         <Key ID="STR_MISERY_Persistence_SaveAE3Storage">
             <English>Save AE3 storage (Hacking)</English>
+            <Czech>Uložit AE3 úložiště (Hacking)</Czech>
+            <French>Sauvegarder le stockage AE3 (Piratage)</French>
+            <Spanish>Guardar almacenamiento de AE3 (Hacking)</Spanish>
+            <Italian>Salva archiviazione AE3 (Hacking)</Italian>
+            <Polish>Zapisz dane AE3 (Hacking)</Polish>
+            <Portuguese>Salvar armazenamento do AE3 (Hacking)</Portuguese>
+            <Russian>Сохранить хранилище AE3 (Взлом)</Russian>
+            <German>AE3-Speicher speichern (Hacking)</German>
+            <Korean>AE3 저장소 저장 (해킹)</Korean>
+            <Japanese>AE3 のストレージを保存（ハッキング）</Japanese>
+            <Chinese>儲存 AE3 儲存空間（駭客）</Chinese>
+            <Chinesesimp>储存 AE3 存储空间（黑客）</Chinesesimp>
+            <Turkish>AE3 depolamayı kaydet (Hacking)</Turkish>
         </Key>
         <Key ID="STR_MISERY_Persistence_SaveAE3StorageDesc">
             <English>Saves AE3 laptop filesystem contents. Requires GRAD persistence</English>
+            <Czech>Uloží obsah souborového systému laptopu AE3. Vyžaduje GRAD persistence</Czech>
+            <French>Sauvegarde le contenu du système de fichiers du laptop AE3. Nécessite GRAD persistence</French>
+            <Spanish>Guarda el contenido del sistema de archivos del portátil AE3. Requiere GRAD persistence</Spanish>
+            <Italian>Salva il contenuto del file system del laptop AE3. Richiede GRAD persistence</Italian>
+            <Polish>Zapisuje zawartość systemu plików laptopa AE3. Wymaga GRAD persistence</Polish>
+            <Portuguese>Salva o conteúdo do sistema de arquivos do laptop AE3. Requer GRAD persistence</Portuguese>
+            <Russian>Сохраняет содержимое файловой системы ноутбука AE3. Требуется GRAD persistence</Russian>
+            <German>Speichert den Dateisysteminhalt des AE3-Laptops. Erfordert GRAD persistence</German>
+            <Korean>AE3 노트북의 파일 시스템 내용을 저장합니다. GRAD persistence가 필요합니다</Korean>
+            <Japanese>AE3 ノートパソコンのファイルシステムの内容を保存します（GRAD persistence が必要）</Japanese>
+            <Chinese>儲存 AE3 筆記型電腦的檔案系統內容。需要 GRAD persistence</Chinese>
+            <Chinesesimp>储存 AE3 笔记本电脑的文件系统内容。需要 GRAD persistence</Chinesesimp>
+            <Turkish>AE3 dizüstü bilgisayarının dosya sistemi içeriğini kaydeder... GRAD persistence gerektirir</Turkish>
         </Key>
         <Key ID="STR_MISERY_Persistence_SaveWaterSources">
             <English>Save water sources (Hydrology)</English>
