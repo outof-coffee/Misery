@@ -2,7 +2,15 @@ class CfgVehicles {
     class House_F;
     class Thing;
     class Land_HelipadEmpty_F;
+    class Land_atm_01_F;
 
+    class CLASS(walletMartAtm): Land_atm_01_F {
+        displayName = CSTRING(WalletMartAtm_DisplayName);
+        MACRO_THING_COMMON;
+        side = 3;
+        faction = "CIV_F";
+        icon = "iconObject_1x1";
+    };
     class CLASS(forge): Thing {
         armor = 2000;
         author = "Model credits: RBG_illustrations - Reworked by TenuredCLOUD";

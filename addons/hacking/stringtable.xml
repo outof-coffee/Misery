@@ -177,22 +177,6 @@
             <Chinesesimp>窃取数据</Chinesesimp>
             <Turkish>Veri Çal</Turkish>
         </Key>
-        <Key ID="STR_MISERY_Hacking_StoreDataAction">
-            <English>Store Data</English>
-            <Czech>Uložit data</Czech>
-            <French>Stocker les données</French>
-            <Spanish>Almacenar datos</Spanish>
-            <Italian>Archivia dati</Italian>
-            <Polish>Zapisz dane</Polish>
-            <Portuguese>Armazenar dados</Portuguese>
-            <Russian>Сохранить данные</Russian>
-            <German>Daten speichern</German>
-            <Korean>데이터 저장</Korean>
-            <Japanese>データを保存</Japanese>
-            <Chinese>儲存資料</Chinese>
-            <Chinesesimp>储存数据</Chinesesimp>
-            <Turkish>Verileri Kaydet</Turkish>
-        </Key>
         <Key ID="STR_MISERY_Hacking_WalletsFound">
             <English>Wallets found</English>
             <Czech>Nalezené peněženky</Czech>
