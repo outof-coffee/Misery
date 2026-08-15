@@ -110,4 +110,4 @@ private _generatorSyphonAction = [
     [_x, 0, [QUOTE(ACE_MainActions), QGVAR(generator_MainMenu)], _generatorCheckOutputAction] call ACEFUNC(interact_menu,addActionToClass);
     [_x, 0, [QUOTE(ACE_MainActions), QGVAR(generator_MainMenu)], _generatorRefuelAction] call ACEFUNC(interact_menu,addActionToClass);
     [_x, 0, [QUOTE(ACE_MainActions), QGVAR(generator_MainMenu)], _generatorSyphonAction] call ACEFUNC(interact_menu,addActionToClass);
-} forEach EGVAR(devices,generators);
+} forEach GVAR(generators);

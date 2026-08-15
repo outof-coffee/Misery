@@ -16,9 +16,30 @@
 
 if (!isServer) exitWith {};
 
-private _nestedDevices = EGVAR(devices,solarPanels) + EGVAR(devices,laptops);
-private _directDevices = EGVAR(devices,batteryPacks);
-private _fueledDevices = EGVAR(devices,generators);
+private _nestedDevices = [
+    "Land_SolarPanel_04_olive_F_AE3",
+    "Land_SolarPanel_04_black_F_AE3",
+    "Land_SolarPanel_04_sand_F_AE3",
+    "Land_Laptop_03_black_F_AE3",
+    "Land_Laptop_03_olive_F_AE3",
+    "Land_Laptop_03_sand_F_AE3"
+];
+
+private _directDevices = [
+    "Land_BatteryPack_01_open_olive_F_AE3",
+    "Land_BatteryPack_01_open_black_F_AE3",
+    "Land_BatteryPack_01_open_sand_F_AE3"
+];
+
+private _fueledDevices = [
+    "Land_PortableGenerator_01_F_AE3",
+    "Land_PortableGenerator_01_black_F_AE3",
+    "Land_PortableGenerator_01_sand_F_AE3",
+    "Land_Portable_generator_F_AE3",
+    "Land_MobileRadar_01_generator_F_AE3",
+    "Land_DieselGroundPowerUnit_01_F_AE3",
+    "Land_PowerGenerator_F_AE3"
+];
 
 private _masterDeviceMap = createHashMap;
 
