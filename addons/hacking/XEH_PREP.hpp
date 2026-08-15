@@ -1,7 +1,11 @@
 PREP(applyCompromiseStates);
 PREP(applyStorageStates);
 PREP(checkCompromiseStatus);
+PREP(dumpData);
 PREP(grabCompromiseStates);
 PREP(grabStorageStates);
 PREP(hackActions);
 PREP(hackLaptop);
+PREP(listWallets);
+PREP(stationActions);
+PREP(stealData);

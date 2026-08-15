@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="MISERY">
+    <Package name="Devices">
+        <Key ID="STR_MISERY_Devices_HackStation_DisplayName">
+            <English>Hacking Station</English>
+            <Czech>Hackerská stanice</Czech>
+            <French>Station de piratage</French>
+            <Spanish>Estación de hacking</Spanish>
+            <Italian>Stazione di hacking</Italian>
+            <Polish>Stacja hakerska</Polish>
+            <Portuguese>Estação de hacking</Portuguese>
+            <Russian>Станция взлома</Russian>
+            <German>Hacking-Station</German>
+            <Korean>해킹 스테이션</Korean>
+            <Japanese>ハッキングステーション</Japanese>
+            <Chinese>駭客站</Chinese>
+            <Chinesesimp>黑客站</Chinesesimp>
+            <Turkish>Hackleme İstasyonu</Turkish>
+        </Key>
+    </Package>
+</Project>

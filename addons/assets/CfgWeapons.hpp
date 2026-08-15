@@ -78,6 +78,18 @@ class CfgWeapons {
         };
     };
 
+    class CLASS(hackingKit): CLASS(ItemCore) {
+        displayName = CSTRING(HackingKit_DisplayName);
+        descriptionShort = CSTRING(HackingKit_Description);
+        picture = QPATHTOEF(icons,data\circuit_board_ca.paa);
+        scope = 2;
+        scopeCurator = 2;
+
+        class ItemInfo: CBA_MiscItem_ItemInfo {
+            mass = 8;
+        };
+    };
+
     class CLASS(clozapine): CLASS(ItemCore) {
         CLASSACE(isMedicalItem) = 1;
         displayName = CSTRING(Clozapine_DisplayName);

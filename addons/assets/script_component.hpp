@@ -52,6 +52,7 @@
     QCLASS(goldOre), \
     QCLASS(goldPiece), \
     QCLASS(guttingKnife), \
+    QCLASS(hackingKit), \
     QCLASS(hackingToolkit), \
     QCLASS(heatpack), \
     QCLASS(ironIngot), \

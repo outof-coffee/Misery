@@ -3,13 +3,14 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {QCLASS(hackStation)};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QCLASS(common), QCLASSAE3(power)};
+        requiredAddons[] = {QCLASS(common), QCLASSAE3(power), QCLASSAE3(armaos)};
         authors[] = {"tsalaroth"};
         VERSION_CONFIG;
     };
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"

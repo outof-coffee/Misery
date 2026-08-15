@@ -17,6 +17,54 @@
             <Chinesesimp>检查状态</Chinesesimp>
             <Turkish>Durumu Kontrol Et</Turkish>
         </Key>
+        <Key ID="STR_MISERY_Hacking_CreateWalletAction">
+            <English>Create Wallet</English>
+            <Czech>Vytvořit peněženku</Czech>
+            <French>Créer un portefeuille</French>
+            <Spanish>Crear billetera</Spanish>
+            <Italian>Crea portafoglio</Italian>
+            <Polish>Utwórz portfel</Polish>
+            <Portuguese>Criar carteira</Portuguese>
+            <Russian>Создать кошелёк</Russian>
+            <German>Wallet erstellen</German>
+            <Korean>지갑 생성</Korean>
+            <Japanese>ウォレットを作成</Japanese>
+            <Chinese>建立錢包</Chinese>
+            <Chinesesimp>创建钱包</Chinesesimp>
+            <Turkish>Cüzdan Oluştur</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_DataStolen">
+            <English>Data copied to your Hacking Toolkit</English>
+            <Czech>Data zkopírována do vaší hackerské sady</Czech>
+            <French>Données copiées sur votre kit de piratage</French>
+            <Spanish>Datos copiados a tu kit de hacking</Spanish>
+            <Italian>Dati copiati nel tuo kit di hacking</Italian>
+            <Polish>Dane skopiowane do twojego zestawu hakerskiego</Polish>
+            <Portuguese>Dados copiados para o seu kit de hacking</Portuguese>
+            <Russian>Данные скопированы в ваш набор для взлома</Russian>
+            <German>Daten in dein Hacking-Werkzeugset kopiert</German>
+            <Korean>데이터가 해킹 도구 세트에 복사되었습니다</Korean>
+            <Japanese>データがハッキングツールキットにコピーされました</Japanese>
+            <Chinese>資料已複製到您的駭客工具組</Chinese>
+            <Chinesesimp>数据已复制到您的黑客工具组</Chinesesimp>
+            <Turkish>Veriler Hackleme Aracı Setinize kopyalandı</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_DataStored">
+            <English>Data stored on the Hacking Station</English>
+            <Czech>Data uložena na hackerské stanici</Czech>
+            <French>Données stockées sur la station de piratage</French>
+            <Spanish>Datos almacenados en la estación de hacking</Spanish>
+            <Italian>Dati archiviati sulla stazione di hacking</Italian>
+            <Polish>Dane zapisane na stacji hakerskiej</Polish>
+            <Portuguese>Dados armazenados na estação de hacking</Portuguese>
+            <Russian>Данные сохранены на станции взлома</Russian>
+            <German>Daten auf der Hacking-Station gespeichert</German>
+            <Korean>데이터가 해킹 스테이션에 저장되었습니다</Korean>
+            <Japanese>データがハッキングステーションに保存されました</Japanese>
+            <Chinese>資料已儲存於駭客站</Chinese>
+            <Chinesesimp>数据已储存于黑客站</Chinesesimp>
+            <Turkish>Veriler Hackleme İstasyonuna kaydedildi</Turkish>
+        </Key>
         <Key ID="STR_MISERY_Hacking_HackAction">
             <English>Debug Hack</English>
             <Czech>Ladicí hack</Czech>
@@ -34,6 +82,70 @@
             <Turkish>Hata Ayıklama Hackleme</Turkish>
         </Key>
         <Key ID="STR_MISERY_Hacking_HackToolkitMenu">
+            <English>Debug Tools</English>
+            <Czech>Ladicí nástroje</Czech>
+            <French>Outils de débogage</French>
+            <Spanish>Herramientas de depuración</Spanish>
+            <Italian>Strumenti di debug</Italian>
+            <Polish>Narzędzia debugowania</Polish>
+            <Portuguese>Ferramentas de depuração</Portuguese>
+            <Russian>Отладочные инструменты</Russian>
+            <German>Debug-Werkzeuge</German>
+            <Korean>디버그 도구</Korean>
+            <Japanese>デバッグツール</Japanese>
+            <Chinese>除錯工具</Chinese>
+            <Chinesesimp>调试工具</Chinesesimp>
+            <Turkish>Hata Ayıklama Araçları</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_ListWalletsAction">
+            <English>List Wallets</English>
+            <Czech>Zobrazit peněženky</Czech>
+            <French>Lister les portefeuilles</French>
+            <Spanish>Listar billeteras</Spanish>
+            <Italian>Elenca portafogli</Italian>
+            <Polish>Wyświetl portfele</Polish>
+            <Portuguese>Listar carteiras</Portuguese>
+            <Russian>Показать кошельки</Russian>
+            <German>Wallets auflisten</German>
+            <Korean>지갑 목록 보기</Korean>
+            <Japanese>ウォレット一覧を表示</Japanese>
+            <Chinese>列出錢包</Chinese>
+            <Chinesesimp>列出钱包</Chinesesimp>
+            <Turkish>Cüzdanları Listele</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_NoDataToStore">
+            <English>No stolen data to store</English>
+            <Czech>Žádná ukradená data k uložení</Czech>
+            <French>Aucune donnée volée à stocker</French>
+            <Spanish>No hay datos robados que almacenar</Spanish>
+            <Italian>Nessun dato rubato da archiviare</Italian>
+            <Polish>Brak skradzionych danych do zapisania</Polish>
+            <Portuguese>Nenhum dado roubado para armazenar</Portuguese>
+            <Russian>Нет украденных данных для сохранения</Russian>
+            <German>Keine gestohlenen Daten zum Speichern</German>
+            <Korean>저장할 훔친 데이터가 없습니다</Korean>
+            <Japanese>保存する盗まれたデータがありません</Japanese>
+            <Chinese>沒有可儲存的竊取資料</Chinese>
+            <Chinesesimp>没有可储存的窃取数据</Chinesesimp>
+            <Turkish>Saklanacak çalıntı veri yok</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_NoWalletsFound">
+            <English>No wallet folder found</English>
+            <Czech>Nebyla nalezena žádná složka s peněženkou</Czech>
+            <French>Aucun dossier de portefeuille trouvé</French>
+            <Spanish>No se encontró carpeta de billetera</Spanish>
+            <Italian>Nessuna cartella portafoglio trovata</Italian>
+            <Polish>Nie znaleziono folderu portfela</Polish>
+            <Portuguese>Nenhuma pasta de carteira encontrada</Portuguese>
+            <Russian>Папка кошелька не найдена</Russian>
+            <German>Kein Wallet-Ordner gefunden</German>
+            <Korean>지갑 폴더를 찾을 수 없습니다</Korean>
+            <Japanese>ウォレットフォルダが見つかりません</Japanese>
+            <Chinese>找不到錢包資料夾</Chinese>
+            <Chinesesimp>找不到钱包文件夹</Chinesesimp>
+            <Turkish>Cüzdan klasörü bulunamadı</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_RealToolkitMenu">
             <English>Hacking Toolkit</English>
             <Czech>Hackerská sada</Czech>
             <French>Kit de piratage</French>
@@ -80,6 +192,54 @@
             <Chinese>此筆記型電腦已遭入侵</Chinese>
             <Chinesesimp>此笔记本电脑已遭入侵</Chinesesimp>
             <Turkish>Bu dizüstü bilgisayar ele geçirilmiş</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_StealDataAction">
+            <English>Steal Data</English>
+            <Czech>Ukrást data</Czech>
+            <French>Voler des données</French>
+            <Spanish>Robar datos</Spanish>
+            <Italian>Ruba dati</Italian>
+            <Polish>Ukradnij dane</Polish>
+            <Portuguese>Roubar dados</Portuguese>
+            <Russian>Украсть данные</Russian>
+            <German>Daten stehlen</German>
+            <Korean>데이터 훔치기</Korean>
+            <Japanese>データを盗む</Japanese>
+            <Chinese>竊取資料</Chinese>
+            <Chinesesimp>窃取数据</Chinesesimp>
+            <Turkish>Veri Çal</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_StoreDataAction">
+            <English>Store Data</English>
+            <Czech>Uložit data</Czech>
+            <French>Stocker les données</French>
+            <Spanish>Almacenar datos</Spanish>
+            <Italian>Archivia dati</Italian>
+            <Polish>Zapisz dane</Polish>
+            <Portuguese>Armazenar dados</Portuguese>
+            <Russian>Сохранить данные</Russian>
+            <German>Daten speichern</German>
+            <Korean>데이터 저장</Korean>
+            <Japanese>データを保存</Japanese>
+            <Chinese>儲存資料</Chinese>
+            <Chinesesimp>储存数据</Chinesesimp>
+            <Turkish>Verileri Kaydet</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_WalletsFound">
+            <English>Wallets found</English>
+            <Czech>Nalezené peněženky</Czech>
+            <French>Portefeuilles trouvés</French>
+            <Spanish>Billeteras encontradas</Spanish>
+            <Italian>Portafogli trovati</Italian>
+            <Polish>Znalezione portfele</Polish>
+            <Portuguese>Carteiras encontradas</Portuguese>
+            <Russian>Найденные кошельки</Russian>
+            <German>Gefundene Wallets</German>
+            <Korean>발견된 지갑</Korean>
+            <Japanese>見つかったウォレット</Japanese>
+            <Chinese>找到的錢包</Chinese>
+            <Chinesesimp>找到的钱包</Chinesesimp>
+            <Turkish>Bulunan cüzdanlar</Turkish>
         </Key>
     </Package>
 </Project>
