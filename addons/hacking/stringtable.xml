@@ -81,6 +81,12 @@
             <Chinesesimp>调试工具</Chinesesimp>
             <Turkish>Hata Ayıklama Araçları</Turkish>
         </Key>
+        <Key ID="STR_MISERY_Hacking_HackingStationDisplayName">
+            <English>Hacking Station Enabled</English>
+        </Key>
+        <Key ID="STR_MISERY_Hacking_HackingStationTooltip">
+            <English>Marks this laptop as a hacking station.</English>
+        </Key>
         <Key ID="STR_MISERY_Hacking_HackingToolkitMenu">
             <English>Hacking Toolkit</English>
             <Czech>Hackerská sada</Czech>
