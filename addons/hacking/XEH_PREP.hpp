@@ -1,6 +1,7 @@
 PREP(applyCompromiseStates);
 PREP(applyStorageStates);
 PREP(checkCompromiseStatus);
+PREP(enableHackingStation);
 PREP(grabCompromiseStates);
 PREP(grabStorageStates);
 PREP(hackActions);

@@ -14,6 +14,11 @@
  *
 */
 
+private _hackingStationCondition = {
+    params ["_target", "_player"];
+    _target getVariable [QGVAR(hackingEnabled), false]
+};
+
 private _hackDebugToolMenu = [
     QGVAR(hackDebugTool_MainMenu),
     localize LSTRING(HackDebugToolMenu),
@@ -23,6 +28,22 @@ private _hackDebugToolMenu = [
         params ["_target", "_player"];
         [[QCLASS(hackingDebugTool)]] call EFUNC(common,hasItem)
     },
+    {},
+    ["_target", "_player"],
+    [0, 0, 0],
+    3
+] call ACEFUNC(interact_menu,createAction);
+
+private _enableStationAction = [
+    QGVAR(enableStation),
+    localize LSTRING(EnableStationAction),
+    "",
+    {
+        params ["_target", "_player"];
+
+        [_target] call FUNC(enableHackingStation);
+    },
+    {true},
     {},
     ["_target", "_player"],
     [0, 0, 0],
@@ -68,7 +89,7 @@ private _hackingToolkitMenu = [
     {},
     {
         params ["_target", "_player"];
-        [[QCLASS(hackingToolkit)]] call EFUNC(common,hasItem)
+        ([[QCLASS(hackingToolkit)]] call EFUNC(common,hasItem)) && (_target getVariable [QGVAR(hackingEnabled), false])
     },
     {},
     ["_target", "_player"],
@@ -85,7 +106,7 @@ private _stealDataAction = [
 
         [_player, _target] call FUNC(stealData);
     },
-    {true},
+    _hackingStationCondition,
     {},
     ["_target", "_player"],
     [0, 0, 0],
@@ -126,6 +147,7 @@ private _listWalletsAction = [
 
 {
     [_x, 0, [QUOTE(ACE_MainActions)], _hackDebugToolMenu] call ACEFUNC(interact_menu,addActionToClass);
+    [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackDebugTool_MainMenu)], _enableStationAction] call ACEFUNC(interact_menu,addActionToClass);
     [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackDebugTool_MainMenu)], _hackAction] call ACEFUNC(interact_menu,addActionToClass);
     [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackDebugTool_MainMenu)], _checkStatusAction] call ACEFUNC(interact_menu,addActionToClass);
     [_x, 0, [QUOTE(ACE_MainActions), QGVAR(hackDebugTool_MainMenu)], _createWalletAction] call ACEFUNC(interact_menu,addActionToClass);

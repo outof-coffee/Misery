@@ -49,6 +49,9 @@
             <Chinesesimp>数据已复制到您的黑客工具组</Chinesesimp>
             <Turkish>Veriler Hackleme Aracı Setinize kopyalandı</Turkish>
         </Key>
+        <Key ID="STR_MISERY_Hacking_EnableStationAction">
+            <English>Enable Hacking Station</English>
+        </Key>
         <Key ID="STR_MISERY_Hacking_HackAction">
             <English>Debug Hack</English>
             <Czech>Ladicí hack</Czech>
