@@ -353,6 +353,38 @@
             <Chinesesimp>储存 ACE 喷漆标记并使其具有持久性。需要 GRAD persistence 支持。</Chinesesimp>
             <Turkish>ACE sprey boya işaretlerini kaydeder ve kalıcı hale getirir; GRAD persistence gerektirir.</Turkish>
         </Key>
+        <Key ID="STR_MISERY_Persistence_SaveAE3Compromise">
+            <English>Save compromise state (Hacking)</English>
+            <Czech>Uložit stav kompromitace (Hacking)</Czech>
+            <French>Sauvegarder l'état de compromission (Piratage)</French>
+            <Spanish>Guardar estado de compromiso (Hacking)</Spanish>
+            <Italian>Salva stato di compromissione (Hacking)</Italian>
+            <Polish>Zapisz stan skompromitowania (Hacking)</Polish>
+            <Portuguese>Salvar estado de comprometimento (Hacking)</Portuguese>
+            <Russian>Сохранить состояние взлома (Взлом)</Russian>
+            <German>Kompromittierungsstatus speichern (Hacking)</German>
+            <Korean>침해 상태 저장 (해킹)</Korean>
+            <Japanese>侵害状態を保存（ハッキング）</Japanese>
+            <Chinese>儲存入侵狀態（駭客）</Chinese>
+            <Chinesesimp>储存入侵状态（黑客）</Chinesesimp>
+            <Turkish>Ele geçirilme durumunu kaydet (Hacking)</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Persistence_SaveAE3CompromiseDesc">
+            <English>Saves which AE3 laptops have been marked compromised. Requires GRAD persistence</English>
+            <Czech>Uloží, které laptopy AE3 byly označeny jako kompromitované. Vyžaduje GRAD persistence</Czech>
+            <French>Sauvegarde les laptops AE3 marqués comme compromis. Nécessite GRAD persistence</French>
+            <Spanish>Guarda qué portátiles AE3 han sido marcados como comprometidos. Requiere GRAD persistence</Spanish>
+            <Italian>Salva quali laptop AE3 sono stati contrassegnati come compromessi. Richiede GRAD persistence</Italian>
+            <Polish>Zapisuje, które laptopy AE3 zostały oznaczone jako skompromitowane. Wymaga GRAD persistence</Polish>
+            <Portuguese>Salva quais laptops AE3 foram marcados como comprometidos. Requer GRAD persistence</Portuguese>
+            <Russian>Сохраняет, какие ноутбуки AE3 были помечены как скомпрометированные. Требуется GRAD persistence</Russian>
+            <German>Speichert, welche AE3-Laptops als kompromittiert markiert wurden. Erfordert GRAD persistence</German>
+            <Korean>손상된 것으로 표시된 AE3 노트북을 저장합니다. GRAD persistence가 필요합니다</Korean>
+            <Japanese>侵害済みとしてマークされた AE3 ノートパソコンを保存します（GRAD persistence が必要）</Japanese>
+            <Chinese>儲存被標記為已入侵的 AE3 筆記型電腦。需要 GRAD persistence</Chinese>
+            <Chinesesimp>储存被标记为已入侵的 AE3 笔记本电脑。需要 GRAD persistence</Chinesesimp>
+            <Turkish>Hangi AE3 dizüstü bilgisayarlarının ele geçirilmiş olarak işaretlendiğini kaydeder... GRAD persistence gerektirir</Turkish>
+        </Key>
         <Key ID="STR_MISERY_Persistence_SaveAE3States">
             <English>Save AE3 states</English>
             <Czech>Uložit stavy AE3</Czech>
@@ -384,6 +416,38 @@
             <Chinese>儲存 AE3 狀態、電池電量、发電機燃料等... 需要 GRAD persistence</Chinese>
             <Chinesesimp>储存 AE3 状态、电池电量、发电机燃料等... 需要 GRAD persistence</Chinesesimp>
             <Turkish>AE3 durumlarını, batarya seviyelerini, jeneratör yakıtını vb. kaydeder... GRAD persistence gerektirir</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Persistence_SaveAE3Storage">
+            <English>Save AE3 storage (Hacking)</English>
+            <Czech>Uložit AE3 úložiště (Hacking)</Czech>
+            <French>Sauvegarder le stockage AE3 (Piratage)</French>
+            <Spanish>Guardar almacenamiento de AE3 (Hacking)</Spanish>
+            <Italian>Salva archiviazione AE3 (Hacking)</Italian>
+            <Polish>Zapisz dane AE3 (Hacking)</Polish>
+            <Portuguese>Salvar armazenamento do AE3 (Hacking)</Portuguese>
+            <Russian>Сохранить хранилище AE3 (Взлом)</Russian>
+            <German>AE3-Speicher speichern (Hacking)</German>
+            <Korean>AE3 저장소 저장 (해킹)</Korean>
+            <Japanese>AE3 のストレージを保存（ハッキング）</Japanese>
+            <Chinese>儲存 AE3 儲存空間（駭客）</Chinese>
+            <Chinesesimp>储存 AE3 存储空间（黑客）</Chinesesimp>
+            <Turkish>AE3 depolamayı kaydet (Hacking)</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Persistence_SaveAE3StorageDesc">
+            <English>Saves AE3 laptop filesystem contents. Requires GRAD persistence</English>
+            <Czech>Uloží obsah souborového systému laptopu AE3. Vyžaduje GRAD persistence</Czech>
+            <French>Sauvegarde le contenu du système de fichiers du laptop AE3. Nécessite GRAD persistence</French>
+            <Spanish>Guarda el contenido del sistema de archivos del portátil AE3. Requiere GRAD persistence</Spanish>
+            <Italian>Salva il contenuto del file system del laptop AE3. Richiede GRAD persistence</Italian>
+            <Polish>Zapisuje zawartość systemu plików laptopa AE3. Wymaga GRAD persistence</Polish>
+            <Portuguese>Salva o conteúdo do sistema de arquivos do laptop AE3. Requer GRAD persistence</Portuguese>
+            <Russian>Сохраняет содержимое файловой системы ноутбука AE3. Требуется GRAD persistence</Russian>
+            <German>Speichert den Dateisysteminhalt des AE3-Laptops. Erfordert GRAD persistence</German>
+            <Korean>AE3 노트북의 파일 시스템 내용을 저장합니다. GRAD persistence가 필요합니다</Korean>
+            <Japanese>AE3 ノートパソコンのファイルシステムの内容を保存します（GRAD persistence が必要）</Japanese>
+            <Chinese>儲存 AE3 筆記型電腦的檔案系統內容。需要 GRAD persistence</Chinese>
+            <Chinesesimp>储存 AE3 笔记本电脑的文件系统内容。需要 GRAD persistence</Chinesesimp>
+            <Turkish>AE3 dizüstü bilgisayarının dosya sistemi içeriğini kaydeder... GRAD persistence gerektirir</Turkish>
         </Key>
         <Key ID="STR_MISERY_Persistence_SaveWaterSources">
             <English>Save water sources (Hydrology)</English>

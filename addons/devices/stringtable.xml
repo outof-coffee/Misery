@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="MISERY">
+    <Package name="Devices">
+        <Key ID="STR_MISERY_Devices_FobMoneyGiven">
+            <English>Balance transferred to their fob</English>
+            <Czech>Zůstatek byl převeden na jejich fob</Czech>
+            <French>Solde transféré sur leur fob</French>
+            <Spanish>Saldo transferido a su fob</Spanish>
+            <Italian>Saldo trasferito sul loro fob</Italian>
+            <Polish>Saldo przekazane na ich fob</Polish>
+            <Portuguese>Saldo transferido para o fob deles</Portuguese>
+            <Russian>Баланс передан на их фоб</Russian>
+            <German>Guthaben auf ihren Fob übertragen</German>
+            <Korean>상대방의 포브로 잔액이 전달되었습니다</Korean>
+            <Japanese>相手のフォブに残高が転送されました</Japanese>
+            <Chinese>餘額已轉移至對方的隨身裝置</Chinese>
+            <Chinesesimp>余额已转移至对方的随身装置</Chinesesimp>
+            <Turkish>Bakiye onların fobuna aktarıldı</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Devices_GiveFobMoneyAction">
+            <English>Give Fob Money</English>
+            <Czech>Předat peníze z fobu</Czech>
+            <French>Donner l'argent du fob</French>
+            <Spanish>Dar dinero del fob</Spanish>
+            <Italian>Dai denaro dal fob</Italian>
+            <Polish>Przekaż pieniądze z foba</Polish>
+            <Portuguese>Dar dinheiro do fob</Portuguese>
+            <Russian>Передать деньги с фоба</Russian>
+            <German>Fob-Geld übergeben</German>
+            <Korean>포브 잔액 전달</Korean>
+            <Japanese>フォブの残高を渡す</Japanese>
+            <Chinese>轉移隨身裝置餘額</Chinese>
+            <Chinesesimp>转移随身装置余额</Chinesesimp>
+            <Turkish>Fob Parasını Ver</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Devices_NoFobBalance">
+            <English>No balance on your fob to give</English>
+            <Czech>Na vašem fobu není žádný zůstatek k předání</Czech>
+            <French>Aucun solde sur votre fob à donner</French>
+            <Spanish>No hay saldo en tu fob para dar</Spanish>
+            <Italian>Nessun saldo sul tuo fob da dare</Italian>
+            <Polish>Brak salda na twoim fobie do przekazania</Polish>
+            <Portuguese>Nenhum saldo no seu fob para dar</Portuguese>
+            <Russian>На вашем фобе нет средств для передачи</Russian>
+            <German>Kein Guthaben auf deinem Fob zum Übergeben</German>
+            <Korean>전달할 포브 잔액이 없습니다</Korean>
+            <Japanese>渡せるフォブの残高がありません</Japanese>
+            <Chinese>您的隨身裝置沒有可轉移的餘額</Chinese>
+            <Chinesesimp>您的随身装置没有可转移的余额</Chinesesimp>
+            <Turkish>Fobunuzda verilecek bakiye yok</Turkish>
+        </Key>
+    </Package>
+</Project>

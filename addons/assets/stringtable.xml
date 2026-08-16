@@ -397,6 +397,70 @@
             <Chinesesimp>个人盖革计数器</Chinesesimp>
             <Turkish>Kişisel Geiger Sayacı</Turkish>
         </Key>
+        <Key ID="STR_MISERY_Assets_HackingDebugTool_Description">
+            <English>A specialized toolkit for compromising certain laptops</English>
+            <Czech>Speciální sada nástrojů pro kompromitaci určitých laptopů</Czech>
+            <French>Un kit spécialisé pour compromettre certains laptops</French>
+            <Spanish>Un kit especializado para comprometer ciertos portátiles</Spanish>
+            <Italian>Un kit specializzato per compromettere determinati laptop</Italian>
+            <Polish>Specjalistyczny zestaw narzędzi do przełamywania zabezpieczeń niektórych laptopów</Polish>
+            <Portuguese>Um kit especializado para comprometer certos laptops</Portuguese>
+            <Russian>Специализированный набор инструментов для взлома некоторых ноутбуков</Russian>
+            <German>Ein spezialisiertes Werkzeugset zum Kompromittieren bestimmter Laptops</German>
+            <Korean>특정 노트북을 침해하기 위한 특수 도구 세트</Korean>
+            <Japanese>特定のノートパソコンを侵害するための専用ツールキット</Japanese>
+            <Chinese>用於入侵特定筆記型電腦的專用工具組</Chinese>
+            <Chinesesimp>用于入侵特定笔记本电脑的专用工具组</Chinesesimp>
+            <Turkish>Belirli dizüstü bilgisayarları ele geçirmek için özel bir araç seti</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Assets_HackingDebugTool_DisplayName">
+            <English>Hacking Debug Tool</English>
+            <Czech>Hackerský ladicí nástroj</Czech>
+            <French>Outil de débogage de piratage</French>
+            <Spanish>Herramienta de depuración de hacking</Spanish>
+            <Italian>Strumento di debug per hacking</Italian>
+            <Polish>Narzędzie debugowania hakowania</Polish>
+            <Portuguese>Ferramenta de depuração de hacking</Portuguese>
+            <Russian>Отладочный инструмент взлома</Russian>
+            <German>Hacking-Debug-Werkzeug</German>
+            <Korean>해킹 디버그 도구</Korean>
+            <Japanese>ハッキングデバッグツール</Japanese>
+            <Chinese>駭客除錯工具</Chinese>
+            <Chinesesimp>黑客调试工具</Chinesesimp>
+            <Turkish>Hackleme Hata Ayıklama Aracı</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Assets_HackingToolkit_Description">
+            <English>A specialized toolkit for stealing data from certain laptops</English>
+            <Czech>Speciální sada nástrojů pro krádež dat z určitých laptopů</Czech>
+            <French>Un kit spécialisé pour voler des données depuis certains laptops</French>
+            <Spanish>Un kit especializado para robar datos de ciertos portátiles</Spanish>
+            <Italian>Un kit specializzato per rubare dati da determinati laptop</Italian>
+            <Polish>Specjalistyczny zestaw narzędzi do kradzieży danych z niektórych laptopów</Polish>
+            <Portuguese>Um kit especializado para roubar dados de certos laptops</Portuguese>
+            <Russian>Специализированный набор инструментов для кражи данных с некоторых ноутбуков</Russian>
+            <German>Ein spezialisiertes Werkzeugset zum Stehlen von Daten von bestimmten Laptops</German>
+            <Korean>특정 노트북에서 데이터를 훔치기 위한 특수 도구 세트</Korean>
+            <Japanese>特定のノートパソコンからデータを盗むための専用ツールキット</Japanese>
+            <Chinese>用於從特定筆記型電腦竊取資料的專用工具組</Chinese>
+            <Chinesesimp>用于从特定笔记本电脑窃取数据的专用工具组</Chinesesimp>
+            <Turkish>Belirli dizüstü bilgisayarlardan veri çalmak için özel bir araç seti</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Assets_HackingToolkit_DisplayName">
+            <English>Hacking Toolkit</English>
+            <Czech>Hackerská sada</Czech>
+            <French>Kit de piratage</French>
+            <Spanish>Kit de hacking</Spanish>
+            <Italian>Kit di hacking</Italian>
+            <Polish>Zestaw hakerski</Polish>
+            <Portuguese>Kit de hacking</Portuguese>
+            <Russian>Набор для взлома</Russian>
+            <German>Hacking-Werkzeugset</German>
+            <Korean>해킹 도구 세트</Korean>
+            <Japanese>ハッキングツールキット</Japanese>
+            <Chinese>駭客工具組</Chinese>
+            <Chinesesimp>黑客工具组</Chinesesimp>
+            <Turkish>Hackleme Aracı Seti</Turkish>
+        </Key>
         <Key ID="STR_MISERY_Assets_Lighter_Description">
             <English>Old lighter...&lt;br/&gt; - Fire crafting</English>
             <Czech>Starý zapalovač...&lt;br/&gt; - Rozdělávání ohně</Czech>
@@ -716,6 +780,38 @@
             <Chinese>安眠藥包裝</Chinese>
             <Chinesesimp>安眠药包装</Chinesesimp>
             <Turkish>Uyku hapı paketi</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Assets_WalletFob_Description">
+            <English>A WalletMart-issued device for storing and transferring digital funds</English>
+            <Czech>Zařízení vydávané společností WalletMart pro ukládání a převod digitálních prostředků</Czech>
+            <French>Un appareil délivré par WalletMart pour stocker et transférer des fonds numériques</French>
+            <Spanish>Un dispositivo emitido por WalletMart para almacenar y transferir fondos digitales</Spanish>
+            <Italian>Un dispositivo rilasciato da WalletMart per archiviare e trasferire fondi digitali</Italian>
+            <Polish>Urządzenie wydane przez WalletMart do przechowywania i przesyłania cyfrowych środków</Polish>
+            <Portuguese>Um dispositivo emitido pela WalletMart para armazenar e transferir fundos digitais</Portuguese>
+            <Russian>Устройство от WalletMart для хранения и передачи цифровых средств</Russian>
+            <German>Ein von WalletMart ausgegebenes Gerät zum Speichern und Übertragen digitaler Gelder</German>
+            <Korean>디지털 자금을 저장하고 전송하기 위한 WalletMart 발행 장치</Korean>
+            <Japanese>デジタル資金の保管と送金のためのWalletMart発行デバイス</Japanese>
+            <Chinese>WalletMart 發行的數位資金儲存與轉帳裝置</Chinese>
+            <Chinesesimp>WalletMart 发行的数字资金储存与转账装置</Chinesesimp>
+            <Turkish>Dijital fonları saklamak ve transfer etmek için WalletMart tarafından verilen bir cihaz</Turkish>
+        </Key>
+        <Key ID="STR_MISERY_Assets_WalletFob_DisplayName">
+            <English>WalletMart Fob</English>
+            <Czech>WalletMart fob</Czech>
+            <French>Porte-clés WalletMart</French>
+            <Spanish>Llavero WalletMart</Spanish>
+            <Italian>Portachiavi WalletMart</Italian>
+            <Polish>Brelok WalletMart</Polish>
+            <Portuguese>Chaveiro WalletMart</Portuguese>
+            <Russian>Фоб WalletMart</Russian>
+            <German>WalletMart-Fob</German>
+            <Korean>월마트 지갑 포브</Korean>
+            <Japanese>WalletMart フォブ</Japanese>
+            <Chinese>WalletMart 隨身裝置</Chinese>
+            <Chinesesimp>WalletMart 随身装置</Chinesesimp>
+            <Turkish>WalletMart Fob</Turkish>
         </Key>
         <Key ID="STR_Misery_Assets_18VBattery_Description">
             <English>18v battery for handheld tools</English>
@@ -4375,6 +4471,9 @@
             <Chinese>伏特加</Chinese>
             <Chinesesimp>伏特加</Chinesesimp>
             <Turkish>Votka</Turkish>
+        </Key>
+        <Key ID="STR_Misery_Assets_WalletMartAtm_DisplayName">
+            <English>WalletMart ATM</English>
         </Key>
         <Key ID="STR_Misery_Assets_WaterBottleClean_Description">
             <English>This water bottle is filled with boiled water. It's free from biological contaminants, but might still contain radiation</English>

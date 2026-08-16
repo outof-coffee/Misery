@@ -52,6 +52,8 @@
     QCLASS(goldOre), \
     QCLASS(goldPiece), \
     QCLASS(guttingKnife), \
+    QCLASS(hackingDebugTool), \
+    QCLASS(hackingToolkit), \
     QCLASS(heatpack), \
     QCLASS(ironIngot), \
     QCLASS(ironOre), \
@@ -91,6 +93,7 @@
     QCLASS(tinder), \
     QCLASS(toySoldier), \
     QCLASS(vintageShipBottle), \
+    QCLASS(walletFob), \
     QCLASS(waterBottle_Empty), \
     QCLASS(waterJerryCan_Empty), \
     QCLASS(woodaxe), \
@@ -108,7 +111,8 @@
 
 #define MACRO_VEHICLES \
     QCLASS(forge), \
-    QCLASS(anvil)
+    QCLASS(anvil), \
+    QCLASS(walletMartAtm)
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
